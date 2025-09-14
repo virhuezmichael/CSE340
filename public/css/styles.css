@@ -182,7 +182,11 @@ footer{
 }
 
 /* Responsive */
-@media (min-width: 400px){
+@media (min-width: 350px){
+  .page-title{
+  font-size: 1.7rem;
+  margin: 10px 0 12px;
+  }
   .hero{
     grid-template-columns: 1fr auto;
   }
